@@ -7,6 +7,7 @@
 
 ## 📋 Table of Contents
 - [Overview](#overview)
+- [Screenshots](#screenshots)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
@@ -19,6 +20,16 @@
 
 ## 🎯 Overview
 Personal Habit Tracker is a robust web application designed to help users develop and maintain positive habits. Built using Spring Boot and modern Java technologies, it offers a secure and intuitive platform for personal development tracking.
+
+## 📸 Screenshots
+
+### Login Page
+![Login Page](screenshots/login%20page.png)
+*Secure user authentication with clean, modern interface*
+
+### Habit Dashboard
+![Habit Data](screenshots/habit%20data.png)
+*Interactive dashboard for tracking daily habits and viewing progress*
 
 ## ✨ Features
 
@@ -135,6 +146,15 @@ mvn clean install
 mvn spring-boot:run
 ```
 
+5. Access the application at `http://localhost:8081`
+
+### 📱 Application Flow
+1. **Registration/Login**: Users can register for a new account or login with existing credentials
+2. **Dashboard**: After authentication, users access their personal dashboard
+3. **Habit Management**: Create, edit, and track daily habits
+4. **Progress Tracking**: View completion status and maintain streaks
+5. **Data Persistence**: All data is securely stored in MySQL database
+
 ## 🔐 Security Implementation
 - User authentication using Spring Security
 - Password encryption using BCrypt
@@ -190,6 +210,16 @@ mvn spring-boot:run
 ## 🚧 Future Enhancements
 - Mobile Application
 - Social Sharing Features
+- Advanced Analytics and Reports
+- Habit Streaks and Achievements
+- Export Data Functionality
+- Notification System
+
+## 📱 User Interface Highlights
+- **Clean Login Interface**: Simple and secure authentication system
+- **Interactive Dashboard**: Real-time habit tracking with visual progress indicators
+- **Responsive Design**: Works seamlessly across desktop and mobile devices
+- **Intuitive Navigation**: User-friendly interface for easy habit management
 
 ## 👥 Team Members
 - Taranjot Singh
@@ -323,6 +353,12 @@ mvn spring-boot:run
 
 Open [http://localhost:8081](http://localhost:8081) in your browser.  
 (Default port is 8081. If you change `server.port` in `application.properties`, use that port.)
+
+## 📸 Application Screenshots
+
+The application features a modern, clean interface:
+- **Login Page**: Secure authentication with professional styling
+- **Habit Dashboard**: Comprehensive view of all habits with progress tracking
 
 ## Main Commands
 
